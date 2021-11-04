@@ -2921,69 +2921,69 @@ body:not(.rtl) #footer .nav .nav-item:last-child .nav-link {
 }
 
 .social-icons li:hover a {
-  color: #999;
+  color: #fff!important;
   -webkit-transform: scale(1.2);
   transform: scale(1.2);
-}
+} 
 
 .social-icons li:hover.social-icons-twitter a, .social-icons.social-icons-colored li.social-icons-twitter a {
-  color: #00ACEE;
+  color: #00b7ff!important;
 }
 
 .social-icons li:hover.social-icons-facebook a, .social-icons.social-icons-colored li.social-icons-facebook a {
-  color: #3B5998;
+  color: #052d83!important;
 }
 
 .social-icons li:hover.social-icons-linkedin a, .social-icons.social-icons-colored li.social-icons-linkedin a {
-  color: #0E76A8;
+  color: #003953!important;
 }
 
 .social-icons li:hover.social-icons-rss a, .social-icons.social-icons-colored li.social-icons-rss a {
-  color: #EE802F;
+  color: #EE802F!important;
 }
 
 .social-icons li:hover.social-icons-dribbble a, .social-icons.social-icons-colored li.social-icons-dribbble a {
-  color: #ea4c89;
+  color: #ea4c89!important;
 }
 
 .social-icons li:hover.social-icons-github a, .social-icons.social-icons-colored li.social-icons-github a {
-  color: #333333;
+  color: #ffffff!important;
 }
 
 .social-icons li:hover.social-icons-behance a, .social-icons.social-icons-colored li.social-icons-behance a {
-  color: #053eff;
+  color: #053eff!important;
 }
 
 .social-icons li:hover.social-icons-google a, .social-icons.social-icons-colored li.social-icons-google a {
-  color: #DD4B39;
+  color: #DD4B39!important;
 }
 
 .social-icons li:hover.social-icons-pinterest a, .social-icons.social-icons-colored li.social-icons-pinterest a {
-  color: #cc2127;
+  color: #cc2127!important;
 }
 
 .social-icons li:hover.social-icons-youtube a, .social-icons.social-icons-colored li.social-icons-youtube a {
-  color: #C4302B;
+  color: #C4302B!important;
 }
 
 .social-icons li:hover.social-icons-instagram a, .social-icons.social-icons-colored li.social-icons-instagram a {
-  color: #d40c26;
+  color: #d40c26!important;
 }
 
 .social-icons li:hover.social-icons-skype a, .social-icons.social-icons-colored li.social-icons-skype a {
-  color: #00AFF0;
+  color: #00AFF0!important;
 }
 
 .social-icons li:hover.social-icons-email a, .social-icons.social-icons-colored li.social-icons-email a {
-  color: #6567A5;
+  color: #6567A5!important;
 }
 
 .social-icons li:hover.social-icons-vk a, .social-icons.social-icons-colored li.social-icons-vk a {
-  color: #2B587A;
+  color: #2B587A!important;
 }
 
 .social-icons li:hover.social-icons-xing a, .social-icons.social-icons-colored li.social-icons-xing a {
-  color: #126567;
+  color: #126567!important;
 }
 
 .social-icons li:hover.social-icons-tumblr a, .social-icons.social-icons-colored li.social-icons-tumblr a {
@@ -3227,7 +3227,7 @@ select.form-control:not([size]):not([multiple]):not(.form-control-sm) {
   border: none;
   border-bottom: 2px solid rgba(0, 0, 0, 0.12);
   border-radius: 0px;
-  padding-left: 0px !important;
+  padding-left: 5px !important;
   color: black;
 }
 
@@ -3376,7 +3376,10 @@ select.form-control:not([size]):not([multiple]):not(.form-control-sm) {
 .bg-secondary {
   background-color: #939597 !important;
 }
+.bg-third{
+  background-color: #15463e !important;
 
+}
 .text-primary {
   color: #04806d !important;
 }
@@ -3627,6 +3630,9 @@ input:-internal-autofill-selected {
   border-radius: 4px 0px 0px 4px;
 }
 
+::-webkit-scrollbar{
+  width:5px!important;
+}
 ::-webkit-scrollbar-thumb{
-  width:2px;
+  background-color: #04806d;
 }
