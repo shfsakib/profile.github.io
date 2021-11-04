@@ -2468,9 +2468,9 @@ hr {
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;
-  background-size: cover;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
   transition: background-image 300ms ease-in 200ms;
 }
 
@@ -2931,11 +2931,11 @@ body:not(.rtl) #footer .nav .nav-item:last-child .nav-link {
 }
 
 .social-icons li:hover.social-icons-facebook a, .social-icons.social-icons-colored li.social-icons-facebook a {
-  color: #052d83!important;
+  color: #0043d3!important;
 }
 
 .social-icons li:hover.social-icons-linkedin a, .social-icons.social-icons-colored li.social-icons-linkedin a {
-  color: #003953!important;
+  color: #006594!important;
 }
 
 .social-icons li:hover.social-icons-rss a, .social-icons.social-icons-colored li.social-icons-rss a {
